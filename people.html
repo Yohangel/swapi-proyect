@@ -14,6 +14,7 @@
 	<!-- script -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </head>
 <body>
 <div class="container" style="margin-top:20px;">
@@ -44,26 +45,13 @@
 		</nav>
 	</div>
 	<!-- content -->
-	<div class="row">
+	<div class="row" id="the-list">
 		<!-- show movie -->
-		<div class="col-md-4 col-sep">
-			<div class="data">
-				<p>Luke Skywalker</p>
-				<p><b>Specie:</b> Human</p>
-				<p><b>Classification:</b> mammal</p>
-				<p><b>From:</b> Tatooine</p>
-				<p><b>Lang:</b> Galactic Basic</p>
-				<p>
-					<b>Films:</b>
-					<br />- hello (Episode 1)
-					<br />- hello (Episode 1)
-					<br />- hello (Episode 1)
-					<br />- hello (Episode 1)
-				</p>
-			</div>
-		</div>
-
+	</div>
+	<div class="row" id="button-cont">
+		<!-- show button -->
 	</div>
 </div>
+<script>$(document).ready(function () { getApi(); });</script>
 </body>
 </html>

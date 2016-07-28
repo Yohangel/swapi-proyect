@@ -14,6 +14,7 @@
 	<!-- script -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </head>
 <body>
 <div class="container" style="margin-top:20px;">
@@ -36,6 +37,7 @@
 		      <ul class = "nav navbar-nav">
 		         <li><a href="index.html">Home</a></li>
 		         <li><a href="people.html">People</a></li>
+		         <li><a href="planets.html">Planets</a></li>
 		         <li><a href="vehicles.html">Vehicles</a></li>
 		         <li><a href="starships.html">Starships</a></li>
 		      </ul>
@@ -43,20 +45,13 @@
 		</nav>
 	</div>
 	<!-- content -->
-	<div class="row">
+	<div class="row" id="the-list">
 		<!-- show movie -->
-		<div class="col-md-4 col-sep">
-			<div class="data">
-				<p><a href="movie.html#1">A New Hope</a></p>
-				<p>Episode 4</p>
-				<p>It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....</p>
-				<p>1977-05-25</p>
-				<p><b>Director:</b><br />- George Lucas</p>
-				<p><b>Producer:</b><br />- Gary Kurtz <br />- Rick McCallum</p>
-			</div>
-		</div>
-
+	</div>
+	<div id="button-cont">
+		<!-- show button -->
 	</div>
 </div>
+<script>$(document).ready(function () { getApi(); });</script>
 </body>
 </html>
