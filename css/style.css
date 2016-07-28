@@ -101,12 +101,43 @@ nav a:active, nav a:hover {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	display: inline-block;
+	border: 1px solid rgba(255,255,255,0.2);
+
 }
 .data p{
 	width: 100%;
 	padding:5px;
 	box-shadow: 0 1px 0 rgba(255,255,255,0.1);
 	text-align: center;
-	color:#FFF;
+	color: #FFF;
 	display: inline-block;
+}
+.data textarea{
+	width: 100%;
+	padding:5px;
+	background: none;
+	text-align: justify;
+	color: #FFF;
+	display: inline-block;
+	border: 0;
+	height: 100px;
+	resize: none;
+}
+#button-cont {
+	width: 100%;
+	text-align: center;
+}
+#button-cont button{
+	width: 50%;
+	margin: 10px;
+	height: 60px;
+	background: -moz-linear-gradient(#0B1217,#060404);
+	background: -webkit-linear-gradient#0B1217,#060404);
+	background: linear-gradient(#0B1217,#060404); 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid rgba(255,255,255,0.2);
+	color: #FFF;
+	font-size: 20px;
 }
